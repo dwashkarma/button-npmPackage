@@ -15,4 +15,5 @@ export default {
     },
   ],
   plugins: [typescript(), terser()],
+  external: ["styled-components"],
 };
