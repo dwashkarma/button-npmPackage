@@ -1,7 +1,7 @@
 import styled, { css } from "styled-components";
 import { colorVariant } from "./Color";
 interface ButtonProps {
-  color?: string;
+  bgColor?: string;
 }
 
 export const ButtonCom = styled.button<ButtonProps>`
@@ -10,12 +10,12 @@ export const ButtonCom = styled.button<ButtonProps>`
 
   appearance: none;
   backface-visibility: hidden;
-  background-color: ${(props) => colorVariant(props.color).backgroundColor};
+  background-color: ${(props) => colorVariant(props.bgColor).backgroundColor};
   border-radius: 8px;
   border-style: none;
   box-shadow: rgba(39, 174, 96, 0.15) 0 4px 9px;
   box-sizing: border-box;
-  color: ${(props) => colorVariant(props.color).color};
+  color: ${(props) => colorVariant(props.bgColor).color};
   cursor: pointer;
   display: inline-block;
   font-family: Inter, -apple-system, system-ui, "Segoe UI", Helvetica, Arial,

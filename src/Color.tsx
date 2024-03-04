@@ -1,5 +1,5 @@
-export const colorVariant = (color: string | undefined) => {
-  switch (color) {
+export const colorVariant = (bgColor: string | undefined) => {
+  switch (bgColor) {
     case "primary":
       return { backgroundColor: "#3B71CA", color: "black" };
 
