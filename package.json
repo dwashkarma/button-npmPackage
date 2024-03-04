@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "description": "This is a button package",
   "main": "dist/index.js",
-  "module": "dist/index.mjs",
-  "type": "module",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
   "files": [
     "src/**/*,{html,js,ts,jsx,tsx}"
   ],
